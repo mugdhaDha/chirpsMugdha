@@ -1,0 +1,30 @@
+<template>
+	<h1>Home</h1>
+
+   <div class="col-lg-2 input-group magrinTop">
+        <button show.bind="!showLogon" click.trigger="showRegister()">
+          <span class="glyphicon glyphicon-arrow-left leftMargin"></span>>
+        </button>
+   </div>
+   
+   <div class="panel panel-default marginTop">
+      <div class="panel-body">
+        <div class="col-lg-2">
+          <h1>${message}</h1>
+        </div>
+        <div class="col-lg-2 pull-right">
+          <img height="100px" width="100px"src="image/bird.jpg" />
+        </div>
+      </div>
+    </div>
+
+
+   <div clss="marginTop">
+      <compose show.bind="showLogon" view="./components/login.html"></compose>
+      <compose show.bind="!showLogon" view="./components/register.html"></compose>
+ </div>
+
+
+
+</template>
+

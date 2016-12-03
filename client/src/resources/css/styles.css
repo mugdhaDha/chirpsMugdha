@@ -1,0 +1,28 @@
+.marginTop {
+    margin-top: 20px
+}
+
+.marginBottom {
+    margin-bottom: 20px
+}
+
+.marginLeft {
+    margin-left: 20px
+}
+
+.marginRight {
+    margin-right: 20px
+}
+
+span.glyphicon{
+    font-size: 1em;
+}
+
+smallFont{
+    font-size: small;
+}
+
+.verticle-align{
+    display: flex;
+    align-items: center;
+}
